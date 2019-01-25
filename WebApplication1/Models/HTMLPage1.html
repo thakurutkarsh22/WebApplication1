@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="StyleSheet1.css">
+    <style>
+        #form { 
+            text-orientation : sideways-left ; 
+            margin-left : 40% ;
+            margin-top : 10% ;
+            
+            
+        }
+
+        #table{
+            width :60% ;
+            
+
+        }
+        .button {
+           
+            background-color: #4CAF50;
+            resize : both;
+            height : 40px ; 
+            width : 40px ;
+            margin-left : 53% ;
+        }
+    </style>
+	<title>WebApp</title>
+</head>
+<body>
+    <h1>Form</h1>
+
+    <form action="/form_handling_page" method="post" id="form">
+
+        <table id="table">
+            <tr>
+
+                <td> Username </td>
+                <td><input type="text" placeholder="Username" /></td>
+
+            </tr>
+
+            <tr>
+                <td> Email </td>
+                <td><input type="text" placeholder="Email" /> </td>
+            </tr>
+
+            <tr>
+                <td> Password </td>
+                <td><input type="password" placeholder="Password" /> </td>
+            </tr>
+
+            <tr>
+                <td> ConfirmPassword </td>
+                <td> <input type="password" /> </td>
+            </tr>
+
+            <tr>
+                <td> Address </td>
+                <td> <input type="text" placeholder="Addess" /> </td>
+            </tr>
+
+            <tr>
+                <td>
+                    city
+                </td>
+                <td></td>
+            </tr>
+
+        </table>
+
+
+
+
+    </form>
+
+    <button type="submit" class="button" name="Button"></button>
+
+
+</body>
+</html> 
